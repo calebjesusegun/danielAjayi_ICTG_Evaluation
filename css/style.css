@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, Roboto, Oxygen, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+#header {
+  background-color: #fff1f1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  margin: 20px 30px;
+  list-style: none;
+}
+
+li {
+  margin-left: 10px;
+  color: red !important;
+}
+
+#firstSection {
+  background-color: #ff153b;
+  padding: 3rem 0;
+  color: #fff1f1;
+}
+
+h1 {
+  display: block;
+  font-size: 2cm;
+  margin-block-start: 0.67cm;
+  margin-block-end: 0.67cm;
+  margin-block-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
